@@ -21,6 +21,7 @@ module Hutch
         mq_api_host: 'localhost',
         mq_api_port: 15672,
         mq_api_ssl: false,
+        mq_heartbeat: 30,
         log_level: Logger::INFO,
         require_paths: [],
         autoload_rails: true,
